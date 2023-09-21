@@ -1,2 +1,2 @@
 cd /home/Demo_app
-npm -f install
+npm install
