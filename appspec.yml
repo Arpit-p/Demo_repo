@@ -9,6 +9,6 @@ hooks:
       timeout: 100   # Timeout for the script in seconds
       
   ApplicationStart:
-    - location: start_server.sh   # Script to start your application server
+    - location: applicationstart.sh   # Script to start your application server
       timeout: 100   # Timeout for the script in seconds
  
