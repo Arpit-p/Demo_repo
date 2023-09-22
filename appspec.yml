@@ -3,12 +3,3 @@ os: linux
 files:
   - source: /
     destination: /home/Demo_app   # Destination directory on the target EC2 instance
-hooks:
-  AfterInstall:
-    - location: after_install.sh   # Script to run after installing the application
-      timeout: 100   # Timeout for the script in seconds
-      
-  ApplicationStart:
-    - location: applicationstart.sh   # Script to start your application server
-      timeout: 100   # Timeout for the script in seconds
- 
